@@ -4,7 +4,7 @@ export default function About() {
   return (
     <Layout>
      <h1>About Us !</h1>
-      <p>Such wow. Very React testo.</p>
+      <p>Such wow. Very easy to learn React.</p>
       </Layout>
   	)
 }
