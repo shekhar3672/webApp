@@ -1,0 +1,11 @@
+$color : green;
+*{
+	color: $color;
+}
+
+html {
+  background-color: skyblue;
+  p {
+    color: white;
+  }
+}
