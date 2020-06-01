@@ -8,7 +8,11 @@ export default class PersonList extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://jsonplaceholder.typicode.com/users`)
+    axios.get(`https://jsonplaceholder.typicode.com/users`,{ 
+      headers: {
+          'Access-Control-Allow-Origin': true,
+        },
+        })
       .then(res => {
         const persons = res.data;
         this.setState({ persons });
