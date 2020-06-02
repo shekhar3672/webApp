@@ -18,9 +18,6 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/`,
       },
-      proxy: {
-        url: "https://jsonplaceholder.typicode.com/users",
-      },
       /*resolve: 'gatsby-source-rest-api',
       options: {
         endpoints: [
