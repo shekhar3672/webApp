@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
-    "gatsby": "^2.21.13",
+    "gatsby": "^5.11.0",
     "gatsby-plugin-sass": "^2.3.1",
     "gatsby-source-filesystem": "^2.3.1",
     "gatsby-source-rest-api": "^0.2.3",
